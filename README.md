@@ -19,5 +19,19 @@ making the system scalable, maintainable, and easy to extend.
 A plugin-based architecture was implemented using interfaces, allowing new plugins
 to be added without modifying the core application logic.
 
+** Please Change the connection String of your DataBase" in 
+appsettings.json in that
+
+ "ConnectionStrings": {
+   "DefaultConnection": "Server=RAHULS-PC\\SQLEXPRESS;Database=SystemMonitorDb;Trusted_Connection=True;TrustServerCertificate=True"
+ },
+
+ Replace My Server(RAHULS-PC\\SQLEXPRESS) With your Server for better result .
+
+ For the Logs Please Build the Application and You can find the Logs in 
+ \SystemMonitorApp\SystemMonitorApp\bin\Debug\net8.0\Logs    (In File Explorer )
+
+ 
+
 
 
